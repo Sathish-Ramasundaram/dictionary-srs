@@ -10,7 +10,7 @@ const refreshBtn = document.getElementById("refreshBtn");
 const wordCount = document.getElementById("wordCount");
 
 // Fallback image if URL is missing or broken
-const FALLBACK_IMAGE = "https://via.placeholder.com/100";
+const FALLBACK_IMAGE = "images/Yet-to-Update.png";
 
 // Fetch data from Google Sheet
 function loadData() {
