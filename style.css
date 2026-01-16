@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+#wordCount {
+  margin-top: 10px;
+  font-weight: bold;
+}
