@@ -1,16 +1,13 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background-color: #f9f9f9;
 }
 
 input {
   padding: 8px;
   width: 250px;
-  margin-bottom: 15px;
-}
-
-li {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 button {
@@ -19,7 +16,46 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: #e0e0e0;
+}
+
 #wordCount {
-  margin-top: 10px;
   font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Container for cards */
+#wordContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Each card */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+}
+
+.card .text {
+  display: flex;
+  flex-direction: column;
 }
